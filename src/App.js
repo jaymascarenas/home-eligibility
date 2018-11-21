@@ -1,12 +1,13 @@
 import React from 'react';
-import styled from 'styled-components';
 import './styles.css';
-import FormComponent from './FormComponent';
+import FormComponent from './components/FormComponent';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
       <FormComponent />
+      <Footer />
     </div>
   );
 }
